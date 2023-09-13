@@ -1,3 +1,5 @@
+import Navbar from './component/Navbar'
+import Content from './component/content'
 const mockEmployees = [
   {
     id: 0,
@@ -22,12 +24,12 @@ const mockEmployees = [
 const Home = () => {
 
   return (
+    <>
     <div>
-
+     <Navbar/> 
+     <Content/>
     </div>
+    </>
   )
 }
-
-
-
 export default Home

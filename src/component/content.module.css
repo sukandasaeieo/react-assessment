@@ -1,0 +1,15 @@
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.bt{
+    font-size: 2rem;
+    margin-left: 5rem;
+    text-decoration: none;
+    border: black solid 1px;
+}
+.bigbt{
+    text-align: center;
+}

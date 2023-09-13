@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tablehead{
+    border: black solid 1px;
+    width: 200px;
+}
+.bighead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.tablebody{
+    border: black solid 1px; 
+    width: 200px;
+}

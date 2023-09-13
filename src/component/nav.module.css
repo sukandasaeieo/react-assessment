@@ -1,0 +1,12 @@
+.Navbar{
+display: flex;
+justify-content: right;
+}
+.navitem{
+margin-right: 2rem;
+list-style-type: none;
+}
+.navitem a{
+text-decoration: none;
+font-size: 2rem;
+}
