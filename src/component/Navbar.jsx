@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import style from './nav.module.css'
 const Navbar = () => {
 
@@ -5,8 +6,8 @@ const Navbar = () => {
       <>
       <nav>
         <ul className={style.Navbar}>
-        <li className={style.navitem}><a href="#">Home</a></li>
-        <li className={style.navitem}><a href="#">Owner</a></li>
+        <li className={style.navitem}><Link to = {"/"}><a>Home</a></Link></li>
+        <li className={style.navitem}><Link to = {"/Owner"}><a>Owner</a></Link></li>
         </ul>
       </nav>
       </>
