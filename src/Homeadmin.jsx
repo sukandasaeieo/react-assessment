@@ -1,6 +1,6 @@
 import Navbar from './component/Navbar'
 import Content from './component/content'
-// import style from './Homeuser.module.css'
+import style from './Homeadmin.module.css'
 const Homeadmin = () => {
 
   return (
