@@ -1,5 +1,5 @@
 import Navbar from './component/Navbar'
-
+import style from './Owner.module.css'
 const Owner = () => {
 
   return (
@@ -8,9 +8,9 @@ const Owner = () => {
      <Navbar/> 
     </div>
     <h1>Kath Group-C 46</h1>
-    <img src="https://netstorage-tuko.akamaized.net/images/b2d8b072364a66a5.png" alt="" />
+    <div className={style.image}><img src="https://netstorage-tuko.akamaized.net/images/b2d8b072364a66a5.png" alt="" /></div>
     <h3>Short Biography</h3>
-    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit distinctio iusto voluptatum qui quasi dolorum in, quidem dicta omnis dignissimos tempora necessitatibus est voluptates. Quam ratione explicabo nostrum dicta excepturi dolor perferendis, ex commodi omnis dolores distinctio temporibus laborum numquam!</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore unde vero autem quo, fuga, repudiandae molestiae quibusdam magni quas modi doloribus aut quasi consequatur recusandae neque ipsa vitae laboriosam nisi esse repellendus? Vero quisquam, recusandae cum dolor dolores aliquam sint asperiores non doloribus eos deleniti veniam distinctio repudiandae quam sunt quaerat repellendus impedit aut ea. Autem sapiente illum eos dolor. Necessitatibus tempora amet voluptatum laborum repellat, asperiores alias officiis quos quidem, nisi expedita aliquid cum nihil aut fuga veniam quam optio sit iusto! Voluptatum, odit! Ipsum sunt repudiandae harum nam voluptatem soluta voluptatum quo ullam perferendis non? Sunt, aperiam fugit!</p>
     </>
   )
 }
